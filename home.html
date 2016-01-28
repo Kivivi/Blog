@@ -1,0 +1,9 @@
+<div class="container" ng-controller="blogsCtrl">
+    <div class="row" ng-repeat="blog in blogs">
+        <div class="col-sm-12">
+            <h1><a ng-href="#/article/{{blog.id}}">{{blog.title}}</a></h1>
+            <p>{{blog.summary}}</p>
+        </div>
+    </div>
+    <hr>
+</div>
